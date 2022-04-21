@@ -9,7 +9,7 @@ namespace ImportSaasProduct
     public class Program
     {
        
-        private static void JsonReader(string path)
+        public static void JsonReader(string path)
         {
             using (StreamReader file = new StreamReader(path))
             {
@@ -58,7 +58,7 @@ namespace ImportSaasProduct
             }
         }
 
-        private static void YamlReader(string path)
+        public static void YamlReader(string path)
         {
             try
             {
