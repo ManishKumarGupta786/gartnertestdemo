@@ -8,7 +8,8 @@ namespace ImportSaasProduct
 {
     public class Program
     {
-       
+        //import softwareadvice feed-products/softwareadvice.json
+
         private static void JsonReader(string path)
         {
             using (StreamReader file = new StreamReader(path))
